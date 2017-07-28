@@ -1177,9 +1177,10 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    /*max-width: 126%;*/
+    max-width: 100%;
     height: auto;
-    padding: 0.6em 0;
+    margin: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
        center of its container and (2) shifting the entire image
        in the opposite direction by half its own width.
@@ -1189,6 +1190,7 @@ body.page-template .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+    border-radius: 5px;
 }
 
 .footnotes {
@@ -1589,7 +1591,7 @@ body.page-template .post-title {
 }
 
 .pagination a {
-    color: #9EABB3;
+    color: #0057D8;
     transition: all 0.2s ease;
 }
 
@@ -1599,7 +1601,7 @@ body.page-template .post-title {
     position: absolute;
     display: inline-block;
     padding: 0 15px;
-    border: #bfc8cd 1px solid;
+    /*border: #0057D8 1px solid;*/
     text-decoration: none;
     border-radius: 4px;
     transition: border 0.3s ease;
@@ -1621,8 +1623,8 @@ body.page-template .post-title {
 
 .older-posts:hover,
 .newer-posts:hover {
-    color: #889093;
-    border-color: #98a0a4;
+    color: #0057D8;
+    border-color: #0057D8;
 }
 
 .extra-pagination {
